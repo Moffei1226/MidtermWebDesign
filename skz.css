@@ -1,0 +1,424 @@
+body {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4000px;
+    width: 100%;
+    margin: 0;
+}
+
+.BackgroundImage{
+    position: absolute;
+    width: 100%;
+    height:876px;
+    top:0px;
+    z-index: 0;
+}
+.CoverImage{
+position: absolute;
+width: 100%;
+height: 735px;
+top:260px;
+z-index: 10;
+}
+
+
+header {
+    width: 100%; /* 固定寬度以保持設計的一致性 */
+    height: 832px;
+}
+
+.StrayKids {
+    position: absolute;
+    top: 20px;
+    padding-left: 30px;
+    font-family: 'Lilita One';
+    font-size: 64px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.social-icons {
+    position: absolute; /* 確保社交圖標不會被推下 */
+    top: 30px; /* 確保這裡有適當的值，讓圖標不會被推下 */
+    padding-left: 1300px;
+    z-index: 10;
+}
+
+.MainNav {
+    display: flex;
+    position: absolute;
+    top: 111px;
+    width: 100%;
+    justify-content: center;
+    gap:50px;
+    z-index: 10;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+/* 分隔線 */
+.line1, .line2, .line3, .line4 {
+    width: 50px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: rotate(90deg);
+    align-self: center;
+}
+
+/* 各個導航按鈕的樣式 */
+.Home, .Member, .Album, .Video, .Concert {
+    font-size: 50px;
+    color: #FFFFFF;
+    text-decoration-line: underline;
+}
+
+
+.Members{
+position: absolute;
+width: 300px;
+height: 70px;
+left: 35px;
+top: 1002px;
+
+font-family: 'Lilita One';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 73px;
+
+color: #FFFFFF;
+
+
+}
+
+.SecondImage{
+
+position: absolute; 
+width: 708px;
+height: 471px;
+left: 130px;
+top: 1250px;
+background: url(449393127_1034380278056857_5929182881027929812_n.jpg);
+
+}
+.LineBorder {
+    position: absolute;
+    top: 1032px;
+    left: 350px;
+    width: 1167px;
+    height: 20px; /* 控制線條的粗細 */
+    background: linear-gradient(to right,  #1E1E1E,#FFFFFF);
+
+}
+.SecondNav{
+position: absolute;
+display: flex;
+width: 875px;
+height: 95px;
+top: 1100px;
+left: 310px;
+gap:30px;
+justify-content: center;
+}
+
+.nav01, .nav02, .nav03, .nav04, .nav05, .nav06, .nav07{
+    width:95px;
+    height:95px;
+}
+.BangChan{
+position: absolute;
+width: 394px;
+height: 70px;
+left: 953px;
+top: 1256px;
+
+font-family: 'Lilita One';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 73px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.infomation{
+    /* Occupations:Leader Born:1997/10/03 Citizenship:Australian Graduated:Chungdam High School */
+
+position: absolute;
+width: 362px;
+height: 139px;
+left: 953px;
+top: 1356px;
+
+font-family: 'Lilita One';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+/* or 140% */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.dog{
+    /* 51716dd7dc8cf1ca4eb4144e3e078dc5 1 */
+
+position: absolute;
+width: 147px;
+height: 164px;
+left: 955px;
+top: 1526px;
+
+background: url(51716dd7dc8cf1ca4eb4144e3e078dc5.jpg);
+}
+
+.radius{
+    position: absolute;
+    top: 1556px;
+    left: 1150px;
+    width: 170px;
+    height: 55px; /* 控制線條的粗細 */
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+.SKZOO{
+position: absolute;
+width: 225px;
+height: 41px;
+left: 1123px;
+top: 1563px;
+
+font-family: 'Lilita One';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+text-align: center;
+
+color: #000000;
+z-index: 100;
+}
+.WolfChan{
+    /* WlofChan */
+
+position: absolute;
+width: 225px;
+height: 41px;
+left: 1123px;
+top: 1623px;
+
+font-family: 'Lilita One';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.album{
+left: 35px;
+top: 1760px;
+
+position: absolute;
+width: 300px;
+height: 70px;
+
+font-family: 'Lilita One';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 73px;
+
+color: #FFFFFF;
+}
+
+.LineBorder2{
+    position: absolute;
+    top: 1790px;
+    left: 350px;
+    width: 1167px;
+    height: 20px; /* 控制線條的粗細 */
+    background: linear-gradient(to right,  #1E1E1E,#FFFFFF);
+}
+
+.languages{
+    display: flex;
+    position: absolute;
+    width: 1060px;
+    height: 60px;
+    top: 1850px;
+    color:#FFFFFF;
+    gap:200px;
+    justify-content: center;
+}
+
+.Korean, .Japanese, .English{
+    border: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 50px;
+}
+
+.Korean_album{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width:1100px;
+    top:1970px;
+    left:238px;
+    gap: 30px;
+}
+
+.Continue{
+position: absolute;
+width: 140px;
+height: 40px;
+left: 1158px;
+top: 2440px;
+
+font-family: 'Libre Caslon Text';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+
+color: rgba(255, 255, 255, 0.3);
+}
+
+.underline{
+position: absolute;
+width: 320px;
+height: 0px;
+left: 952px;
+top: 2470px;
+
+border: 1px solid rgba(255, 255, 255, 0.3);
+transform: rotate(180deg);
+}
+
+.Videos{
+    position: absolute;
+    left: 35px;
+    top: 2530px;
+    width: 300px;
+    height: 70px;
+
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 73px;
+    z-index: 10;
+    color:#FFFFFF;
+}
+
+.LineBorder3{
+    position: absolute;
+    top: 2560px;
+    left: 350px;
+    width: 1167px;
+    height: 20px; /* 控制線條的粗細 */
+    background: linear-gradient(to right,  #1E1E1E,#FFFFFF);
+}
+
+.VideoNav{
+    display: flex;
+    position: absolute;
+    width: 1060px;
+    height: 60px;
+    top: 2620px;
+    color:#FFFFFF;
+    gap:50px;
+    justify-content: center;
+
+}
+.MV, .LIVE, .VLOG, .KIDROOM, .SKZCODE{
+    border: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0px 20px;
+}
+
+.VIDEOIMAGE{
+    position: absolute;
+    top: 2720px;
+}
+
+.ConcertImage{
+    position: absolute;
+    top:3400px;
+    left: 965px;
+}
+.Concert5{
+    position: absolute;
+    left: 40px;
+    top: 3500px;
+    width: 300px;
+    height: 70px;
+
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 73px;
+    color:#FFFFFF;
+}
+
+.LineBorder4{
+    position: absolute;
+    top: 3530px;
+    left: 350px;
+    width: 600px;
+    height: 20px; /* 控制線條的粗細 */
+    background: linear-gradient(to right,  #1E1E1E,#FFFFFF);
+}
+
+.Rectangle{
+
+position: absolute;
+width: 559px;
+height: 832px;
+left: 965px;
+top: 3400px;
+z-index: 10;
+
+background: linear-gradient(270deg, rgba(0, 0, 0, 0) 4.85%, #000000 100%);
+}
+
+.schedule{
+    position: absolute;
+    left: 255px;
+    top: 3570px;
+    width:550px;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: red;
+    height: 20px;
+    text-align: center;
+    z-index: 10;
+}
+
