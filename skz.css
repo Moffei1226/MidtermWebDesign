@@ -413,12 +413,12 @@ background: linear-gradient(270deg, rgba(0, 0, 0, 0) 4.85%, #000000 100%);
 }
 
 footer{
-    position: fixed;
+    position: absolute;
     width: 100%;
-    bottom: 0;
     background-color: red;
     height: 20px;
     text-align: center;
     z-index: 10;
+    top:4230px;
 }
 
